@@ -1,4 +1,4 @@
-#!/bin/bash
+! /bin/bash
 if [ -d /home/git-sources ];then
         echo "the directory exist"
 else    
@@ -15,6 +15,9 @@ cd /home/git-sources/ && git clone https://github.com/1N3/BlackWidow && cd Black
 
 #Dnstwist
 apt-get install dnstwist -y
+
+#Amass
+apt-get install amass -y
 
 #Sublister
 apt-get install sublist3r -y 
@@ -56,13 +59,16 @@ cd /home/git-sources/ && git clone https://github.com/1N3/Sn1per && cd /home/git
 cd /home/git-sources/ && git clone https://github.com/brainfucksec/kalitorify && apt-get install tor curl -y && cd /home/git-sources/kalitorify && make install kalitorify.sh
 
 #Infoga
-cd /home/git-sources/ | git clone https://github.com/m4ll0k/Infoga.git | cd /home/git-sources/Infoga | python3.9 setup.py install | python infoga.py
+cd /home/git-sources/ && git clone https://github.com/m4ll0k/Infoga.git && cd /home/git-sources/Infoga && python3.9 setup.py install && python3 infoga.py
 
 #twint
-cd /home/git-sources/ | git clone --depth=1 https://github.com/twintproject/twint.git | cd twint | pip3 install . -r requirements.txt
+cd /home/git-sources/ && git clone --depth=1 https://github.com/twintproject/twint.git && cd /home/git-sources/twint && pip3 install . -r requirements.txt
 
 #operative-framework
-cd /home/git-sources/ | go get github.com/graniet/operative-framework && cd /root/go/src/github.com/graniet/operative-framework && go get github.com/Masterminds/glide && cd /root/go/src/github.com/Masterminds && apt install golang-glide && cd /root/go/src/github.com/graniet/operative-framework && go build && ./operative-framework
+cd /home/git-sources/ && go get github.com/graniet/operative-framework && cd /root/go/src/github.com/graniet/operative-framework && go get github.com/Masterminds/glide && cd /root/go/src/github.com/Masterminds && apt install golang-glide>
 
 #osintgram
-cd /home/git-sources/ | git clone https://github.com/Datalux/Osintgram.git | cd /home/git-sources/Osintgram | apt-get install python3.9-venv -y | python3.9 -m venv venv | source venv/bin/activate | pip3 install -r requirements.txt 
+cd /home/git-sources/ && git clone https://github.com/Datalux/Osintgram.git && cd /home/git-sources/Osintgram && apt-get install python3.9-venv -y && python3.9 -m venv venv && source venv/bin/activate && pip3 install -r requirements.txt 
+
+bash /home/modified-path.sh
+
