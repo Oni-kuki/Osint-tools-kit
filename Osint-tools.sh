@@ -70,5 +70,5 @@ cd /home/git-sources/ && go get github.com/graniet/operative-framework && cd /ro
 #osintgram
 cd /home/git-sources/ && git clone https://github.com/Datalux/Osintgram.git && cd /home/git-sources/Osintgram && apt-get install python3.9-venv -y && python3.9 -m venv venv && source venv/bin/activate && pip3 install -r requirements.txt 
 
-bash /home/modified-path.sh
+bash /home/defined-path.sh
 
