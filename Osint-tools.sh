@@ -50,7 +50,7 @@ cd /home/git-sources/ && git clone https://github.com/HatBashBR/HatCloud
 cd /home/git-sources/ && git clone https://github.com/vincentcox/bypass-firewalls-by-DNS-history &&  apt-get install jq -y && cd /home/git-sources/bypass-firewalls-by-DNS-history &&  bash bypass-firewalls-by-DNS-history.sh
 
 #sn1per
-cd /home/git-sources/ && git clone https://github.com/1N3/Sn1per && cd /home/git-sources/Sn1per &&  bash install.sh -y
+cd /home/git-sources/ && git clone https://github.com/1N3/Sn1per && cd /home/git-sources/Sn1per &&  echo yes | bash install.sh -y
 
 #kalitorify
 cd /home/git-sources/ && git clone https://github.com/brainfucksec/kalitorify && apt-get install tor curl -y && cd /home/git-sources/kalitorify && make install kalitorify.sh
