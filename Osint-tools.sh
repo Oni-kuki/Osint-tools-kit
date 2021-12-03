@@ -1,4 +1,4 @@
-! /bin/bash
+#! /bin/bash
 if [ -d /home/git-sources ];then
         echo "the directory exist"
 else    
