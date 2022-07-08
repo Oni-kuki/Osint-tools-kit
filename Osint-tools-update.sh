@@ -80,10 +80,10 @@ cd /home/git-sources/ && git clone https://github.com/mxrch/ghunt && cd ghunt &&
 cd /home/git-sources/ && pip3 install PyInquirer jinja2 bs4 && git clone https://github.com/amitrajputfff/Profil3r.git && cd Profil3r/ && sudo python3 setup.py install
 
 #H8tmail
-pip3 install h8mail
+pip3 install h8mail 
 
 #InstaLoctrack
-cd /home/git-sources/ && apt install chromium-driver && chmod a+x /usr/bin/chromedriver && git clone https://github.com/bernsteining/instaloctrack && cd instaloctrack && pip3 install .
+cd /home/git-sources/ && apt install chromium-driver -y && chmod a+x /usr/bin/chromedriver && git clone https://github.com/bernsteining/instaloctrack && cd instaloctrack && pip3 install .
 
 #Spy
 cd /home/git-sources && git clone https://github.com/cyb3r-g0d/SPY.git
@@ -99,7 +99,7 @@ cd /home/git-sources/ && git clone https://github.com/Eriys/RelationsFB.git && c
 
 #SpiderFoot
 #cd /home/git-sources && wget https://github.com/smicallef/spiderfoot/archive/v4.0.tar.gz && tar zxvf v4.0.tar.gz && cd spiderfoot-4.0 && pip3 install -r requirements.txt && python3 ./sf.py -l 127.0.0.1:5001
-apt install spiderfoot
+apt install spiderfoot -y
 
 #PhoneInfoga
 cd /home/git-sources/ && curl -sSL https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/support/scripts/install | bash && ./phoneinfoga version && sudo mv ./phoneinfoga /usr/bin/phoneinfoga
