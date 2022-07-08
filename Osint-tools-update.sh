@@ -69,6 +69,7 @@ cd /home/git-sources/ && git clone https://github.com/megadose/toutatis.git && c
 
 #Sterra
 cd /home/git-sources/ && git clone https://github.com/novitae/sterraxcyl/ && cd sterraxcyl && python setup.py install
+#pip install sterra
 
 #Harpoon
 cd /home/git-sources/ && apt-get install libxml2-dev libxslt-dev python3-dev -y && git clone https://github.com/Te-k/harpoon.git && cd harpoon && pip3 install .
