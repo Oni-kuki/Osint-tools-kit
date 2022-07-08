@@ -111,7 +111,7 @@ cd /home/git-sources/ && pip3 install maigret && git clone https://github.com/so
 cd /home/git-sources/ && git clone https://github.com/GONZOsint/geowifi && cd geowifi && python3 -m pip install -r requirements.txt
 
 #Osintgram
-cd /home/git-sources/ && git clone https://github.com/Datalux/Osintgram.git && cd Osintgram && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+cd /home/git-sources/ && git clone https://github.com/Datalux/Osintgram.git && cd Osintgram && apt install python3.10-venv -y && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
 
 #twint
 #cd /home/git-sources/ && git clone --depth=1 https://github.com/twintproject/twint.git && cd /home/git-sources/twint && pip3 install . -r requirements.txt
