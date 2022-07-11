@@ -1,5 +1,6 @@
 #!/bin/bash
-
+ cd ~ && touch  ~/.bash_aliases
+ 
 alias hatcloud="/home/git-sources/Hatcloud" >> .bash_aliases
 alias o365chk="/home/git-sources/o365chk" >> .bash_aliases
 alias blacbkird="/home/git-sources/blackbird" >> .bash_aliases
