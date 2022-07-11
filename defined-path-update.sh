@@ -1,6 +1,9 @@
 #!/bin/bash
 #add Path (necessary to be root)
 cd /root &&
+
+
+
 echo "export PATH=$PATH:/home/git-sources/Hatcloud" >> .bashrc && echo "export PATH=$PATH:/home/git-sources/Hatcloud" >> .zshrc
 echo "export PATH=$PATH:/home/git-sources/o365chk" >> .bashrc && echo "export PATH=$PATH:/home/git-sources/o365chk" >> .zshrc
 echo "export PATH=$PATH:/home/git-sources/blackbird" >> .bashrc && echo "export PATH=$PATH:/home/git-sources/blackbird" >> .zshrc
